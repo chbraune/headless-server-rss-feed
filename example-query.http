@@ -1,0 +1,8 @@
+POST https://headless-server-preview.docker.localhost/graphql
+Accept: application/json
+Content-Type: application/json
+
+{
+  "query" : "query{content{sites{name,id}}}"
+}
+
